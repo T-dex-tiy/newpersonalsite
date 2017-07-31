@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Projects from '../components/projects';
 
 
 class About extends Component{
@@ -18,8 +19,8 @@ class About extends Component{
             <div className="Hero2">
               <h2>Design thru Adventure</h2>
             </div>
-            <div className="portfolio">
-
+            <div className="links">
+              <Projects/>
             </div>
         </div>
       </div>

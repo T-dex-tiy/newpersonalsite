@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Footer from './components/footerLinks2/socialLinks.js';
 import './styles/App.css';
 import About from './components/about';
+import Projects from './components/projects';
 
 class App extends Component {
   render() {

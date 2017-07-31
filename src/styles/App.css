@@ -103,4 +103,29 @@ body {
       color: black;
       text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px b #996515; }
 
+.links {
+  display: flex;
+  text-align: center;
+  padding-top: 1100px; }
+
+.profilelinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1px;
+  width: 100%; }
+  .profilelinks .projectprofiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1px;
+    width: 100%; }
+  .profilelinks .portfolio {
+    justify-content: space-around;
+    width: 100%;
+    flex-grow: 1;
+    padding: 2em;
+    height: 18em;
+    width: 18em; }
+
 /*# sourceMappingURL=App.css.map */

@@ -133,3 +133,37 @@ body {
   }
   }
 }
+
+//Projects
+
+.links{
+  display: flex;
+  text-align: center;
+  padding-top: 1100px
+}
+
+.profilelinks{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top:1px;
+  width: 100%;
+
+  .projectprofiles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:1px;
+    width: 100%;
+
+  }
+    .portfolio{
+      justify-content: space-around;
+      width:100%;
+      flex-grow: 1;
+      padding:2em;
+      height: 18em;
+      width: 18em;
+    }
+
+}
