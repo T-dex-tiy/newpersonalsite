@@ -1,18 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Footer from './components/footerLinks2/socialLinks.js';
+import './styles/App.css';
+import About from './components/about';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+        <div className="app-header">
+          <div className="Logo"><h1> Dex Mills Designs</h1></div>
+       </div>
+        <div className="App-intro">
+          <div>
+            <About />
+          </div>
         </div>
-        <p className="App-intro">
-          Deploy test for heroku
-        </p>
+        <div className="app-footer">
+          <Footer/><p> The Dinosaur Engineering Expierence 2017</p>
+        </div>
       </div>
     );
   }

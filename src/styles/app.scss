@@ -1,0 +1,135 @@
+@font-face{
+  font-family: Fancy;
+  src:url("./fonts/Fancy.ttf");
+}
+
+
+*{
+  color:white;
+  box-sizing: border-box;
+}
+body {
+  font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #996515;
+}
+///HEADERITEMS
+.app-header{
+  background: url('images/wood.jpg') no-repeat;
+  font-family: Fancy;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:5.95em;
+  background-color: black;
+  width: 100%;
+  margin-bottom: -1px;
+
+
+  .Logo{
+    font-family:Fancy;
+
+    h1{
+    font-family: Fancy;
+    color: black;
+    text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515;
+    }
+  }
+}
+
+
+//Footer designs
+.app-footer{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start space-between;
+  height:155px;
+  background-color: black;
+  width: 100%;
+  margin-top: 150%;
+  color:white;
+  align-content: stretch;
+  font-weight: bolder;
+
+  .footer{
+    margin-right: 5px;
+    a:link
+    {
+      text-decoration: none;
+    }
+    a:hover{
+      color: lightslategrey;
+      cursor: crosshair;
+    }
+
+    justify-content: flex-start;
+    color: inherit;
+  }
+}
+
+//Main
+.Hero{
+  position:absolute;
+  font-family:Fancy;
+  background:url('images/herobanner.jpg') no-repeat center center fixed;
+  background-size:cover;
+  width:100%;
+  height:580px;
+  margin:1px;
+
+    h2{
+     text-align: center;
+     padding-top: 260px;
+     padding-bottom:260px;
+     margin: 50px;
+     color: black;
+     text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515;
+    }
+}
+
+.Hero2{
+  position:absolute;
+  font-family:Fancy;
+  background:url('images/herobanner2.jpg') no-repeat center center fixed;
+  background-size:cover;
+  margin-top:750px;
+  width:100%;
+  height:300px;
+
+
+    h2{
+     text-align: center;
+     padding-top: 200px;
+     padding-bottom:250px;
+     margin: 50px;
+     margin-bottom: 0;
+     color: black;
+     text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515;
+    }
+}
+
+.bio{
+  display: flex;
+  align-self: flex-start;
+  justify-content: center;
+  position: absolute;
+  background: none center center fixed;
+  margin-top:600px;
+  margin-bottom:25px;
+  width: 100%;
+  height: auto;
+  color: white;
+
+  .bioflex{
+    display: flex;
+    justify-content:center;
+    h1{
+    font-family: Fancy;
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px b#996515;
+  }
+  }
+}
