@@ -9,7 +9,7 @@ body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #996515; }
+  color: black; }
 
 .app-header {
   background: url("images/wood.jpg") no-repeat;
@@ -17,16 +17,24 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 5.95em;
+  height: 14em;
   background-color: black;
   width: 100%;
-  margin-bottom: -1px; }
+  margin-bottom: -1px;
+  padding-left: .5em;
+  padding-right: .5em;
+  padding-top: 3em; }
   .app-header .Logo {
     font-family: Fancy; }
     .app-header .Logo h1 {
       font-family: Fancy;
       color: white;
       text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515; }
+  .app-header .profile {
+    border: black solid 5px;
+    border-radius: 150px;
+    height: 10em;
+    width: 10em; }
 
 .app-footer {
   display: flex;
@@ -35,7 +43,7 @@ body {
   height: 155px;
   background-color: black;
   width: 100%;
-  margin-top: 150%;
+  margin-top: 10%;
   color: white;
   align-content: stretch;
   font-weight: bolder; }
