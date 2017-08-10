@@ -19,7 +19,11 @@ class App extends Component {
           </div>
         </div>
         <div className="app-footer">
-          <Footer/><p> The Dinosaur Engineering Expierence 2017</p>
+          <Footer/>
+          <div className="leftsidefooter">
+          <p> The Dinosaur Engineering Expierence 2017</p>
+          <p className="buildtype">Built in React</p>
+          </div>
         </div>
       </div>
     );

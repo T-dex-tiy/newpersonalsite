@@ -35,7 +35,7 @@ body {
 
     h1{
     font-family: Fancy;
-    color: white;
+    color: black;
     text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515;
     }
   }
@@ -74,6 +74,18 @@ body {
     justify-content: flex-start;
     color: inherit;
   }
+  .leftsidefooter{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 22em;
+    border: 1px solid white;
+  .buildtype{
+    align-self: flex-end;
+    font-weight: lighter;
+    font-size: 10px;
+  }
+}
 }
 
 //Main
@@ -84,11 +96,11 @@ body {
   background-size:cover;
   margin-left: -10px;
   padding-left: -10px;
-  width:110%;
+  width: 100%;
   height:580px;
   margin:1px;
 
-    h2{
+    h1{
      text-align: center;
      padding-top: 260px;
      padding-bottom:260px;
@@ -100,10 +112,10 @@ body {
 
 .Hero2{
   position:absolute;
-  background: black;
+  background: grey  ;
   font-family:Fancy;
   background-size:cover;
-  opacity: 0.85;
+  // opacity: 0.85;
   margin-top:750px;
   width:100%;
   height:300px;
@@ -115,7 +127,7 @@ body {
      padding-top: 75px;
      margin: 50px;
      margin-bottom: 0;
-     color: white;
+     color: black;
      text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515;
     }
 

@@ -9,7 +9,7 @@ class About extends Component{
       <div>
         <div className="profile">
             <div className="Hero">
-              <h2>Loud and Original</h2>
+              <h1>Loud and Original</h1>
             </div>
             <div className="bio">
               <div className="bioflex">
