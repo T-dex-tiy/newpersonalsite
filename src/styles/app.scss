@@ -79,7 +79,7 @@ body {
     flex-wrap: wrap;
     height: auto;
     width: 22em;
-    
+
   .buildtype{
     align-self: flex-end;
     font-weight: lighter;
@@ -116,9 +116,9 @@ body {
   font-family:Fancy;
   background-size:cover;
   // opacity: 0.85;
-  margin-top:750px;
+  margin-top:775px;
   width:100%;
-  height:300px;
+  height:500px;
   color: black;
   text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515;
 
@@ -149,12 +149,27 @@ body {
   .bioflex{
     display: flex;
     justify-content:center;
-    h1{
-    font-family: Fancy;
+    flex-wrap: wrap;
+    margin: 15px;
+    .bioheader{
+      display: flex;
+      justify-content: center;
+      h1{
+      font-family: Fancy;
+      display: flex;
+      justify-content: center;
+      color: black;
+      text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px b#996515;
+      height:25px;
+      }
+  }
+  .biocontent{
     display: flex;
     justify-content: center;
-    color: black;
-    text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px b#996515;
+    p{
+      color:black;
+      height:25px;
+    }
   }
   }
 }
