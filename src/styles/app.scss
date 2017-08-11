@@ -63,6 +63,7 @@ body {
 
   .footer{
     margin-right: 5px;
+    margin-left:15px;
     a:link
     {
       text-decoration: none;
@@ -79,6 +80,7 @@ body {
     flex-wrap: wrap;
     height: auto;
     width: 22em;
+    margin-left: 15px;
 
   .buildtype{
     align-self: flex-end;
@@ -179,7 +181,7 @@ body {
 .links{
   display: flex;
   text-align: center;
-  padding-top: 1100px
+  padding-top: 1300px
 }
 
 .profilelinks{
