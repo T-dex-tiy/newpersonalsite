@@ -60,8 +60,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     height: auto;
-    width: 22em;
-    border: 1px solid white; }
+    width: 22em; }
     .app-footer .leftsidefooter .buildtype {
       align-self: flex-end;
       font-weight: lighter;
