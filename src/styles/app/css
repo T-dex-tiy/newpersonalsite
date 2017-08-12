@@ -201,4 +201,7 @@ body {
     padding-left: 7px;
     padding-right: 10px; }
 
-/*# sourceMappingURL=App.css.map */
+.boxes p {
+  border: 10px solid black; }
+
+/*# sourceMappingURL=css.map */

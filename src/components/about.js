@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Projects from '../components/projects';
+import Contact from '../components/Contact';
+import DevTools from '../components/devToolBox';
 
 
 class About extends Component{
@@ -22,11 +24,14 @@ class About extends Component{
                 </div>
               </div>
             </div>
-            <div className="Hero2">
-              <h1>Frameworks!</h1>
+            <div className="Hero2 boxheader">
+              <DevTools />
             </div>
             <div className="links">
               <Projects/>
+            </div>
+            <div className="ContactInfo">
+              <Contact />
             </div>
         </div>
       </div>

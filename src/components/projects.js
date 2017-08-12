@@ -6,9 +6,7 @@ import WebProjects4 from '../styles/images/projects/hangman.png';
 
 
 class Projects extends Component{
-  constructor(props){
-    super(props)
-  }
+
 
   render(){
     return (

@@ -35,7 +35,7 @@ body {
 
     h1{
     font-family: Fancy;
-    color: black;
+    color: white;
     text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515;
     }
   }
@@ -114,25 +114,14 @@ body {
 
 .Hero2{
   position:absolute;
-  background: grey  ;
+  background: grey;
   font-family:Fancy;
   background-size:cover;
-  // opacity: 0.85;
-  margin-top:775px;
+  margin-top:825px;
   width:100%;
   height:500px;
   color: black;
   text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515;
-
-    h1{
-     text-align: center;
-     padding-top: 75px;
-     margin: 50px;
-     margin-bottom: 0;
-     color: black;
-     text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515;
-    }
-
 
 }
 
@@ -168,6 +157,7 @@ body {
   .biocontent{
     display: flex;
     justify-content: center;
+    text-align: center;
     p{
       color:black;
       height:25px;
@@ -181,7 +171,30 @@ body {
 .links{
   display: flex;
   text-align: center;
-  padding-top: 1300px
+  padding-top: 1350px
+}
+
+.ContactInfo{
+  background: grey;
+  font-family: Fancy;
+  color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 100px;
+  width: 100%;
+  height:500px;
+  border:1px solid black;
+  .contact{
+    background-color: black;
+    justify-content: center;
+    border:1px solid black;
+    color:black;
+    h1{
+      border:1px solid white;
+      color: white;
+    }
+  }
 }
 
 .profilelinks{
@@ -193,11 +206,11 @@ body {
   width: 100%;
   .projects{
     align-self: row;
+    color: black;
     justify-content: center;
     text-align: center;
     flex-wrap: nowrap;
     width:95px;
-    color:black;
     font-family: Fancy;
     text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px b#996515;
   }
@@ -219,4 +232,31 @@ body {
       width: 18em;
     }
 
+}
+
+//BOXHEADER
+
+.boxheader{
+  display: flex;
+  justify-content: center;
+  color: white;
+  h1{
+    text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px b#996515;
+    background-color: black;
+    height: 10%;
+    border:5px solid white;
+    border-radius: 10px;
+    color: white;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 10px;
+  }
+}
+
+
+
+.boxes{
+  p{
+  border:10px solid black;
+}
 }
