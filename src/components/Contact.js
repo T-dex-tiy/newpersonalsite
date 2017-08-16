@@ -9,7 +9,7 @@ class Projects extends Component{
     return (
       <div>
         <div className="boxheader">
-        <h1>Contact Me!</h1>
+        <h1>Hire Me!</h1>
         </div>
       </div>
     )

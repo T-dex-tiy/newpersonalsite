@@ -169,7 +169,6 @@ body {
   width: 100vw; }
   .profilelinks .projects {
     display: flex;
-    border: 1px solid black;
     align-self: row;
     color: black;
     justify-content: center;
@@ -180,7 +179,6 @@ body {
     text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px b #996515; }
 
 .projectprofiles {
-  border: 1px solid red;
   display: flex;
   min-height: 100vh;
   overflow: hidden;

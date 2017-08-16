@@ -210,7 +210,6 @@ body {
   width: 100vw;
   .projects{
     display: flex;
-    border: 1px solid black;
     align-self: row;
     color: black;
     justify-content: center;
@@ -222,7 +221,6 @@ body {
   }
 }
   .projectprofiles{
-    border: 1px solid red;
     display: flex;
     min-height: 100vh;
     overflow:hidden;
