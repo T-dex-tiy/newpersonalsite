@@ -189,10 +189,11 @@ body {
 .boxheader {
   display: flex;
   justify-content: center;
-  color: white; }
+  color: white;
+  background-color: red; }
   .boxheader h1 {
     text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px b #996515;
-    background-color: black;
+    background-color: red;
     height: 10%;
     border: 5px solid white;
     border-radius: 10px;
@@ -200,8 +201,36 @@ body {
     padding-top: 7px;
     padding-left: 7px;
     padding-right: 10px; }
+  .boxheader .boxes {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid white;
+    align-self: row;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    width: 95px; }
+    .boxheader .boxes .shield {
+      border: 1px solid white;
+      color: red;
+      width: 5px;
+      height: 5px; }
 
-.boxes p {
-  border: 10px solid black; }
+.boxes {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid white;
+  align-self: row;
+  color: black;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: nowrap;
+  width: 95px; }
+  .boxes .shield {
+    border: 1px solid white;
+    color: red;
+    width: 5px;
+    height: 5px; }
 
 /*# sourceMappingURL=css.map */

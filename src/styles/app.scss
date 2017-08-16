@@ -113,6 +113,8 @@ body {
 }
 
 .Hero2{
+  display: flex;
+  justify-content: center;
   position:absolute;
   background: grey;
   font-family:Fancy;
@@ -198,13 +200,17 @@ body {
 }
 
 .profilelinks{
+  border: 1px solid black;
   display: flex;
+  min-height: 25vh;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
   margin-top:1px;
-  width: 100%;
+  width: 100vw;
   .projects{
+    display: flex;
+    border: 1px solid black;
     align-self: row;
     color: black;
     justify-content: center;
@@ -216,14 +222,49 @@ body {
   }
 
   .projectprofiles{
+    border: 1px solid red;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    min-height: 100vh;
+    overflow:hidden;
     margin-top:1px;
-    width: 100%;
+    min-width: 100vw;
 
+  .webProjects{
+    background-size:cover;
+       text-align: center;
+       align-items:center;
+        transition:
+          font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+          flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+          background 0.2s;
+        font-size: 20px;
+        background-position:center;
+        flex:1;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
   }
+
+.proj1{background-image: url('images/projects/FirstPage.png')}
+.proj2{background-image: url('images/projects/chucknorris.png')}
+.proj3{background-image: url('images/projects/calculator.png')}
+.proj4{background-image: url('images/projects/hangman.png')}
+
+.webProjects > * {
+    border: 1px solid white;
+    margin:0;
+    width: 100%;
+    transition:transform 0.5s;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
     .portfolio{
+      border: 1px solid black;
       justify-content: space-around;
       width:100%;
       flex-grow: 1;
@@ -251,12 +292,21 @@ body {
     padding-left: 7px;
     padding-right: 10px;
   }
+
 }
-
-
-
 .boxes{
-  p{
-  border:10px solid black;
-}
+  display:flex;
+  justify-content: center;
+  align-self: row;
+  color: black;
+  flex-wrap: nowrap;
+  .shield{
+    justify-content:space-between;
+    width:20%;
+    height:20%;
+    img{
+      height: 50%;
+      width: 50%;
+    }
+  }
 }

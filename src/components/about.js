@@ -24,7 +24,7 @@ class About extends Component{
                 </div>
               </div>
             </div>
-            <div className="Hero2 boxheader">
+            <div className="Hero2">
               <DevTools />
             </div>
             <div className="links">

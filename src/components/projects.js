@@ -16,10 +16,10 @@ class Projects extends Component{
         <div><p>XXXXXXXXXXXXXXXXX</p></div>
         <div><h4 className="projects">All projects are hosted on Github</h4></div>
         <div className="projectprofiles">
-          <div className="webProjects one"><a href ="https://t-dex-tiy.github.io/wk-01-icecream/"><img className="portfolio" src={WebProjects1}/></a></div>
-          <div className="webProjects two"><a href= "https://t-dex-tiy.github.io/API-homework-wk-04/"><img className="portfolio" src={WebProjects2}/></a></div>
-          <div className="webProjects three"><a href="https://t-dex-tiy.github.io/calculator/"><img className="portfolio" src={WebProjects3}/></a></div>
-          <div className="webProjects three"><a href="https://t-dex-tiy.github.io/hangman-wk-02/"><img className="portfolio" src={WebProjects4}/></a></div>
+          <div className="webProjects proj1"><h3>Basic</h3><h1>HTML</h1><h3>Example</h3></div>
+          <div className="webProjects proj2"><h3>Basic</h3><h1>API</h1><h3>Example</h3></div>
+          <div className="webProjects proj3"><h3>Basic</h3><h1>VanillaJS</h1><h3>Example</h3></div>
+          <div className="webProjects proj4"><h3>Basic</h3><h1>CSS</h1><h3>Example</h3></div>
         </div>
       </div>
     </div>
