@@ -220,7 +220,7 @@ body {
     font-family: Fancy;
     text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px b#996515;
   }
-
+}
   .projectprofiles{
     border: 1px solid red;
     display: flex;
@@ -253,7 +253,8 @@ body {
 .proj4{background-image: url('images/projects/hangman.png')}
 
 .webProjects > * {
-    border: 1px solid white;
+    color:black;
+    font-family: Fancy;
     margin:0;
     width: 100%;
     transition:transform 0.5s;
@@ -264,7 +265,6 @@ body {
   }
 
     .portfolio{
-      border: 1px solid black;
       justify-content: space-around;
       width:100%;
       flex-grow: 1;
@@ -273,7 +273,6 @@ body {
       width: 18em;
     }
 
-}
 
 //BOXHEADER
 
@@ -302,8 +301,8 @@ body {
   flex-wrap: nowrap;
   .shield{
     justify-content:space-between;
-    width:20%;
-    height:20%;
+    width:20vw;
+    height:50vh;
     img{
       height: 50%;
       width: 50%;

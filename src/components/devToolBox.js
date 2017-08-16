@@ -15,11 +15,11 @@ class Projects extends Component{
           <div>
             <div className="boxheader"><h1>Dev Tool Box!!!</h1></div>
           </div>
-          <div className="boxes">
-            <div className="shield"><img src={CSS}/></div>
-            <div className="shield"><img src={HTML}/></div>
-            <div className="shield"><img src={JS}/></div>
-            <div className="shield"><img src={REshield}/></div>
+          <div className="boxes projectprofiles">
+            <div className="shield webProjects proj1"><img src={CSS}/></div>
+            <div className="shield webProjects proj1"><img src={HTML}/></div>
+            <div className="shield webProjects proj1"><img src={JS}/></div>
+            <div className="shield webProjects proj1"><img src={REshield}/></div>
           </div>
       </div>
     )
