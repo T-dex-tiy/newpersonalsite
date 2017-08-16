@@ -248,7 +248,8 @@ body {
 .proj1{background-image: url('images/projects/FirstPage.png')}
 .proj2{background-image: url('images/projects/chucknorris.png')}
 .proj3{background-image: url('images/projects/calculator.png')}
-.proj4{background-image: url('images/projects/hangman.png')}
+.proj4{background-image: url('images/projects/hangman.png')};
+.workinprogress{background-image: url('images/working.jpg')}
 
 .webProjects > * {
     color:black;
@@ -306,4 +307,9 @@ body {
       width: 50%;
     }
   }
+}
+
+.workinprogress{
+  background-size: cover;
+  background-position: center;
 }

@@ -209,6 +209,9 @@ body {
 .proj4 {
   background-image: url("images/projects/hangman.png"); }
 
+.workinprogress {
+  background-image: url("images/working.jpg"); }
+
 .webProjects > * {
   color: black;
   font-family: Fancy;
@@ -256,5 +259,9 @@ body {
     .boxes .shield img {
       height: 50%;
       width: 50%; }
+
+.workinprogress {
+  background-size: cover;
+  background-position: center; }
 
 /*# sourceMappingURL=App.css.map */

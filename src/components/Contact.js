@@ -10,6 +10,8 @@ class Projects extends Component{
       <div>
         <div className="boxheader">
         <h1>Hire Me!</h1>
+
+        <h1>COMING SOON!</h1>
         </div>
       </div>
     )
