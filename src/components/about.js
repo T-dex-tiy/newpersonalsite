@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Projects from '../components/projects';
-import Contact from '../components/Contact';
 import DevTools from '../components/devToolBox';
 
 
@@ -29,9 +28,6 @@ class About extends Component{
             </div>
             <div className="links">
               <Projects/>
-            </div>
-            <div className="ContactInfo workinprogress">
-              <Contact />
             </div>
         </div>
       </div>

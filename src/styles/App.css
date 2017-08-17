@@ -43,7 +43,7 @@ body {
   height: 185px;
   background-color: black;
   width: 100%;
-  margin-top: 10%;
+  margin-top: 100%;
   color: white;
   align-content: stretch;
   font-weight: bolder; }
@@ -183,7 +183,7 @@ body {
   min-height: 100vh;
   overflow: hidden;
   margin-top: 1px;
-  min-width: 100vw; }
+  min-width: 75vh; }
   .projectprofiles .webProjects {
     background-size: cover;
     text-align: center;
@@ -195,7 +195,7 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
-    flex-direction: column; }
+    flex-direction: row; }
 
 .proj1 {
   background-image: url("images/projects/FirstPage.png"); }
@@ -260,8 +260,16 @@ body {
       height: 50%;
       width: 50%; }
 
-.workinprogress {
+.hero3 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  background: grey;
+  font-family: Fancy;
   background-size: cover;
-  background-position: center; }
+  width: 100%;
+  height: 500px;
+  color: black;
+  text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515; }
 
 /*# sourceMappingURL=App.css.map */

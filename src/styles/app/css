@@ -87,6 +87,8 @@ body {
     text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515; }
 
 .Hero2 {
+  display: flex;
+  justify-content: center;
   position: absolute;
   background: grey;
   font-family: Fancy;
@@ -157,13 +159,16 @@ body {
       color: white; }
 
 .profilelinks {
+  border: 1px solid black;
   display: flex;
+  min-height: 25vh;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
   margin-top: 1px;
-  width: 100%; }
+  width: 100vw; }
   .profilelinks .projects {
+    display: flex;
     align-self: row;
     color: black;
     justify-content: center;
@@ -172,28 +177,67 @@ body {
     width: 95px;
     font-family: Fancy;
     text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px b #996515; }
-  .profilelinks .projectprofiles {
-    display: flex;
-    flex-wrap: wrap;
+
+.projectprofiles {
+  display: flex;
+  min-height: 100vh;
+  overflow: hidden;
+  margin-top: 1px;
+  min-width: 75vh; }
+  .projectprofiles .webProjects {
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s;
+    font-size: 20px;
+    background-position: center;
+    flex: 1;
     justify-content: center;
-    margin-top: 1px;
-    width: 100%; }
-  .profilelinks .portfolio {
-    justify-content: space-around;
-    width: 100%;
-    flex-grow: 1;
-    padding: 2em;
-    height: 18em;
-    width: 18em; }
+    align-items: center;
+    display: flex;
+    flex-direction: column; }
+
+.proj1 {
+  background-image: url("images/projects/FirstPage.png"); }
+
+.proj2 {
+  background-image: url("images/projects/chucknorris.png"); }
+
+.proj3 {
+  background-image: url("images/projects/calculator.png"); }
+
+.proj4 {
+  background-image: url("images/projects/hangman.png"); }
+
+.workinprogress {
+  background-image: url("images/working.jpg"); }
+
+.webProjects > * {
+  color: black;
+  font-family: Fancy;
+  margin: 0;
+  width: 100%;
+  transition: transform 0.5s;
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.portfolio {
+  justify-content: space-around;
+  width: 100%;
+  flex-grow: 1;
+  padding: 2em;
+  height: 18em;
+  width: 18em; }
 
 .boxheader {
   display: flex;
   justify-content: center;
-  color: white;
-  background-color: red; }
+  color: white; }
   .boxheader h1 {
     text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px b #996515;
-    background-color: red;
+    background-color: black;
     height: 10%;
     border: 5px solid white;
     border-radius: 10px;
@@ -201,36 +245,32 @@ body {
     padding-top: 7px;
     padding-left: 7px;
     padding-right: 10px; }
-  .boxheader .boxes {
-    display: flex;
-    justify-content: flex-start;
-    border: 1px solid white;
-    align-self: row;
-    color: black;
-    justify-content: center;
-    text-align: center;
-    flex-wrap: nowrap;
-    width: 95px; }
-    .boxheader .boxes .shield {
-      border: 1px solid white;
-      color: red;
-      width: 5px;
-      height: 5px; }
 
 .boxes {
   display: flex;
-  justify-content: flex-start;
-  border: 1px solid white;
+  justify-content: center;
   align-self: row;
   color: black;
-  justify-content: center;
-  text-align: center;
-  flex-wrap: nowrap;
-  width: 95px; }
+  flex-wrap: nowrap; }
   .boxes .shield {
-    border: 1px solid white;
-    color: red;
-    width: 5px;
-    height: 5px; }
+    justify-content: space-between;
+    width: 20vw;
+    height: 50vh; }
+    .boxes .shield img {
+      height: 50%;
+      width: 50%; }
+
+.hero3 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  background: grey;
+  font-family: Fancy;
+  background-size: cover;
+  margin-top: 825px;
+  width: 100%;
+  height: 500px;
+  color: black;
+  text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515; }
 
 /*# sourceMappingURL=css.map */

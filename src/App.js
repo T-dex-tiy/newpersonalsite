@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Footer from './components/footerLinks2/socialLinks.js';
 import './styles/App.css';
 import About from './components/about';
+import Contact from './components/Contact';
 import Projects from './components/projects';
 import ProfilePic from './styles/images/ProfilePic.jpg'
 
@@ -16,6 +17,11 @@ class App extends Component {
         <div className="App-intro">
           <div>
             <About />
+          </div>
+        </div>
+        <div className="hero3">
+          <div>
+            <Contact />
           </div>
         </div>
         <div className="app-footer">
