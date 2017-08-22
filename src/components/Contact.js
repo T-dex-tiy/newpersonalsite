@@ -8,7 +8,10 @@ class Contact extends Component{
   render(){
     return (
       <div>
-            <div className="boxheader"><h1>Hire Me!!</h1>
+        <div className="workinprogress"></div>
+          <div>
+            <div className="boxheader">
+              <h1>Hire Me!!</h1>
             </div>
           <div className="boxes projectprofiles">
             <div className="webProjects">
@@ -23,6 +26,7 @@ class Contact extends Component{
                 </a>
               </h1>
             </div>
+          </div>
           </div>
       </div>
 

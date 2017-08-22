@@ -212,11 +212,13 @@ body {
 .workinprogress {
   background-image: url("images/working.jpg");
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  background-color: white;
+  opacity: .5; }
 
 .webProjects > * {
-  color: black;
   font-family: Fancy;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   margin: 0;
   width: 100%;
   transition: transform 0.5s;
