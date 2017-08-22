@@ -19,11 +19,6 @@ class App extends Component {
             <About />
           </div>
         </div>
-        <div className="hero3">
-          <div>
-            <Contact />
-          </div>
-        </div>
         <div className="app-footer">
           <Footer/>
           <div className="leftsidefooter">

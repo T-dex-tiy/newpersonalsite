@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Projects from '../components/projects';
 import DevTools from '../components/devToolBox';
+import Contact from '../components/Contact'
 
 
 class About extends Component{
@@ -28,6 +29,9 @@ class About extends Component{
             </div>
             <div className="links">
               <Projects/>
+            </div>
+            <div className="workinprogress">
+              <Contact/>
             </div>
         </div>
       </div>

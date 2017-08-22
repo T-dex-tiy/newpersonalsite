@@ -172,7 +172,7 @@ body {
 .links{
   display: flex;
   text-align: center;
-  padding-top: 1350px
+  padding-top: 1350px;
 }
 
 .ContactInfo{
@@ -248,7 +248,11 @@ body {
 .proj2{background-image: url('images/projects/chucknorris.png')}
 .proj3{background-image: url('images/projects/calculator.png')}
 .proj4{background-image: url('images/projects/hangman.png')};
-.workinprogress{background-image: url('images/working.jpg')}
+.workinprogress{
+  background-image: url('images/working.jpg');
+  background-position: center;
+  background-size: cover;
+}
 
 .webProjects > * {
     color:black;
@@ -281,6 +285,7 @@ body {
   h1{
     text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px b#996515;
     background-color: black;
+    font-family: Fancy;
     height: 10%;
     border:5px solid white;
     border-radius: 10px;
