@@ -4,7 +4,12 @@ import DevTools from '../components/devToolBox';
 import Contact from '../components/Contact'
 
 
+
 class About extends Component{
+  constructor(){
+    super()
+  }
+
 
   render(){
     return (
@@ -28,7 +33,7 @@ class About extends Component{
               <DevTools />
             </div>
             <div className="links">
-              <Projects/>
+              <Projects class={this.props.class}/>
             </div>
             <div  >
               <Contact/>

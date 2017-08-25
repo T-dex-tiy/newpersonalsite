@@ -193,10 +193,12 @@ body {
 
 .projectprofiles {
   display: flex;
+  flex: stretch;
   min-height: 100vh;
   overflow: hidden;
   margin-top: 1px;
-  min-width: 75vh; }
+  min-width: 75vh;
+  width: 100%; }
   .projectprofiles .webProjects {
     background-size: cover;
     text-align: center;
@@ -232,6 +234,22 @@ body {
   z-index: 0;
   height: 100%;
   width: 100%; }
+
+.proj > *:first-child {
+  transform: translateY(-100%); }
+
+.proj.open-active > *:first-child {
+  transform: translateY(0); }
+
+.proj > *:last-child {
+  transform: translateY(100%); }
+
+.proj.open-active > *:last-child {
+  transform: translateY(0); }
+
+.proj.open {
+  flex: 5;
+  font-size: 40px; }
 
 .webProjects > * {
   font-family: Fancy;

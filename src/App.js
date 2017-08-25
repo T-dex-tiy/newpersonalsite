@@ -7,7 +7,14 @@ import Projects from './components/projects';
 import ProfilePic from './styles/images/ProfilePic.jpg'
 
 class App extends Component {
-  render() {
+    constructor(){
+      super()
+      this.state={
+        class:'open',
+      }
+    }
+
+render() {
     return (
       <div className="App">
         <div className="app-header">
@@ -16,7 +23,8 @@ class App extends Component {
        </div>
         <div className="App-intro">
           <div>
-            <About />
+            <About class={this.state.class}
+               />
           </div>
         </div>
         <div className="app-footer">
