@@ -172,6 +172,7 @@ body {
 .links{
   display: flex;
   text-align: center;
+  justify-content: center;
   padding-top: 1350px;
 }
 
@@ -207,6 +208,7 @@ body {
   align-content: center;
   margin-top:1px;
   width: 100vw;
+
   .projects{
     display: flex;
     align-self: row;
@@ -217,7 +219,21 @@ body {
     width:95px;
     font-family: Fancy;
     text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px b#996515;
+
+  h1{
+    text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px b#996515;
+    background-color: black;
+    font-family: Fancy;
+    height: 10%;
+    border:5px solid white;
+    border-radius: 10px;
+    color: white;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 10px;
+    z-index: 1;
   }
+}
 }
   .projectprofiles{
     display: flex;
@@ -249,11 +265,15 @@ body {
 .proj3{background-image: url('images/projects/calculator.png')}
 .proj4{background-image: url('images/projects/hangman.png')};
 .workinprogress{
+  position: absolute;
   background-image: url('images/working.jpg');
   background-position: center;
   background-size: cover;
   background-color: white;
   opacity: .5;
+  z-index: 0;
+  height: 100%;
+  width:100%;
 }
 
 .webProjects > * {
@@ -295,8 +315,21 @@ body {
     padding-top: 7px;
     padding-left: 7px;
     padding-right: 10px;
+    z-index: 1;
   }
-
+ h4{
+   text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px b#996515;
+   background-color: black;
+   font-family: Fancy;
+   height: 10%;
+   border:5px solid white;
+   border-radius: 10px;
+   color: white;
+   padding-top: 7px;
+   padding-left: 7px;
+   padding-right: 10px;
+   z-index: 1;
+ }
 }
 .boxes{
   display:flex;

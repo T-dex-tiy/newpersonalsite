@@ -11,11 +11,13 @@ class Projects extends Component{
   render(){
     return (
       <div>
-      <div className="profilelinks">
-        <div><h1 className="projects">Projects</h1></div>
-        <div><p>XXXXXXXXXXXXXXXXX</p></div>
-        <div><h4 className="projects">All projects are hosted on Github</h4></div>
-        <div className="projectprofiles">
+      <div>
+        <div className="boxheader">
+          <h1 className="projects">Projects</h1>
+          <div><p>XXXXXXXXXXXXXXXXX</p></div>
+          <h4 className="projects">All projects are hosted on Github</h4>
+        </div>
+        <div className="projectprofiles boxes">
           <div className="webProjects proj1"><h3>Basic</h3><h1>HTML</h1><h3>Example</h3></div>
           <div className="webProjects proj2"><h3>Basic</h3><h1>API</h1><h3>Example</h3></div>
           <div className="webProjects proj3"><h3>Basic</h3><h1>VanillaJS</h1><h3>Example</h3></div>

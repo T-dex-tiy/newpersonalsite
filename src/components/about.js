@@ -30,7 +30,7 @@ class About extends Component{
             <div className="links">
               <Projects/>
             </div>
-            <div className="workinprogress">
+            <div  >
               <Contact/>
             </div>
         </div>
