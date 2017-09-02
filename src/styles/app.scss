@@ -56,7 +56,7 @@ body {
   height:185px;
   background-color: black;
   width: 100%;
-  margin-top: 100%;
+  margin-top: 25%;
   color:white;
   align-content: stretch;
   font-weight: bolder;
@@ -288,7 +288,7 @@ body {
       font-size:40px;
     }
 
-    
+
 
 .webProjects > * {
     font-family: Fancy;
@@ -300,6 +300,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
   }
 
     .portfolio{
