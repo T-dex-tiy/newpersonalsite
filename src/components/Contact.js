@@ -7,8 +7,8 @@ class Contact extends Component{
 
   render(){
     return (
-      <div>
-        <div className="workinprogress"></div>
+      <div className="workinprogress">
+        <div></div>
           <div>
             <div className="boxheader">
               <h1>Hire Me!!</h1>

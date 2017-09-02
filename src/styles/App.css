@@ -6,7 +6,7 @@
   box-sizing: border-box; }
 
 body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   margin: 0;
   padding: 0;
   color: black; }
@@ -21,9 +21,9 @@ body {
   background-color: black;
   width: 100%;
   margin-bottom: -1px;
-  padding-left: .5em;
-  padding-right: .5em;
-  padding-top: .75em; }
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.75em; }
   .app-header .Logo {
     font-family: Fancy; }
     .app-header .Logo h1 {
@@ -43,7 +43,7 @@ body {
   height: 185px;
   background-color: black;
   width: 100%;
-  margin-top: 25%;
+  margin-top: 75%;
   color: white;
   align-content: stretch;
   font-weight: bolder; }
@@ -99,6 +99,18 @@ body {
   color: black;
   text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515; }
 
+Hero4 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  border: 2px solid black;
+  font-family: Fancy;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  color: black;
+  text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515; }
+
 .bio {
   display: flex;
   align-self: flex-start;
@@ -133,11 +145,15 @@ body {
         color: black;
         height: 25px; }
 
+.bio2 {
+  padding-top: 1700px;
+  padding-left: 10px; }
+  .bio2 p {
+    color: black; }
+
 .links {
-  display: flex;
-  text-align: center;
   justify-content: center;
-  padding-top: 1350px; }
+  padding-top: 50px; }
 
 .ContactInfo {
   background: grey;
@@ -197,7 +213,7 @@ body {
   min-height: 100vh;
   overflow: hidden;
   margin-top: 1px;
-  min-width: 75vh;
+  min-width: 125vh;
   width: 100%; }
   .projectprofiles .webProjects {
     background-size: cover;
@@ -230,7 +246,7 @@ body {
   background-position: center;
   background-size: cover;
   background-color: white;
-  opacity: .5;
+  opacity: 0.5;
   z-index: 0;
   height: 100%;
   width: 100%; }

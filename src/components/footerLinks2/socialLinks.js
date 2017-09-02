@@ -10,7 +10,6 @@ class Footer extends Component{
       <h4><a href="https://twitter.com/dexmills">twitter</a></h4>
       <h4><a href="https://medium.com/@dexmills">medium</a></h4>
       <h4><a href="https://github.com/T-dex/">github</a></h4>
-      <h4><a href="mailto:dex.mills@dexmills.com">E-Mail</a></h4>
       </div>
     )
   }
