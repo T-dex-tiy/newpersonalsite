@@ -55,7 +55,7 @@ body {
     .app-footer .footer a:link {
       text-decoration: none; }
     .app-footer .footer a:hover {
-      color: lightslategrey;
+      color: lightslate;
       cursor: crosshair; }
   .app-footer .leftsidefooter {
     display: flex;
@@ -90,7 +90,7 @@ body {
   display: flex;
   justify-content: center;
   position: absolute;
-  background: grey;
+  border: 2px solid black;
   font-family: Fancy;
   background-size: cover;
   margin-top: 825px;
