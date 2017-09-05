@@ -7,10 +7,10 @@ import WebProjects4 from '../styles/images/projects/hangman.png';
 class Projects extends Component {
   constructor() {
     super();
-    this.state = {
-      activeClass: false
+    this.state ={
+      class:'closed',
     };
-    //
+    this.clickAction = this.clickAction.bind(this);
     // this.setState({
     //   class: !this.state.class
     // });
@@ -22,22 +22,14 @@ class Projects extends Component {
     //     class: addClass
     //   });
     // };
-
-    // const projClick = document.querySelectorAll('.proj');
-    // console.log(projClick, "projClick");
-    //
-    // function toggleOpen(){
-    //   console.log("weee!");
-    // }
-    // function toggleActive(e){
-    //   console.log(e.propertyName);
-    //   if(e.propertyName.includes('flex')){this.classList.toggle('open-active');}
-    // }
   }
 
   clickAction(e) {
-    console.log('weeee!');
-    return true;
+      const addClass= this.state.class == 'open open-active' ? 'closed':'open open-active' ;
+      this.setState({
+        class: addClass
+      })
+      console.log(addClass,"Click action");
   }
   render() {
     return (
@@ -52,9 +44,7 @@ class Projects extends Component {
         <div className="projectprofiles boxes" onClick={this.clickAction}>
           <div
             className="webProjects proj1 proj"
-            style={{
-              class: this.state.clickAction ? 'open open-active' : 'none'
-            }}
+            style={{class:this.state.class}}
           >
             <h3>Basic</h3>
             <h1>HTML</h1>
