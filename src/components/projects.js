@@ -8,28 +8,18 @@ class Projects extends Component {
   constructor() {
     super();
     this.state ={
-      class:'closed',
+      class:'',
     };
     this.clickAction = this.clickAction.bind(this);
-    // this.setState({
-    //   class: !this.state.class
-    // });
-    //
-    // const expand = e => {
-    //   const addClass =
-    //     this.state.class === 'open open-active' ? '' : 'open open-active';
-    //   this.setState({
-    //     class: addClass
-    //   });
-    // };
+
   }
 
   clickAction(e) {
-      const addClass= this.state.class == 'open open-active' ? 'closed':'open open-active' ;
+      // const addClass= this.state.class == 'open open-active' ? 'closed':'open open-active' ;
       this.setState({
-        class: addClass
+        class: !this.state.class
       })
-      console.log(addClass,"Click action");
+      console.log(this.state.class,"Click action");
   }
   render() {
     return (
@@ -43,24 +33,23 @@ class Projects extends Component {
         </div>
         <div className="projectprofiles boxes" onClick={this.clickAction}>
           <div
-            className="webProjects proj1 proj"
-            style={{class:this.state.class}}
+            className={`webProjects proj1 proj ${this.state.class ? 'open open-active':'none'}`}
           >
             <h3>Basic</h3>
             <h1>HTML</h1>
             <h3>Example</h3>
           </div>
-          <div className="webProjects proj2 proj">
+          <div className={`webProjects proj2 proj ${this.state.class ? 'open open-active':'none'}`}>
             <h3>Basic</h3>
             <h1>API</h1>
             <h3>Example</h3>
           </div>
-          <div className="webProjects proj3 proj">
+          <div className={`webProjects proj3 proj ${this.state.class ? 'open open-active':'none'}`}>
             <h3>Basic</h3>
             <h1>VanillaJS</h1>
             <h3>Example</h3>
           </div>
-          <div className="webProjects proj4 proj">
+          <div className={`webProjects proj4 proj ${this.state.class ? 'open open-active':'none'}`}>
             <h3>Basic</h3>
             <h1>CSS</h1>
             <h3>Example</h3>
