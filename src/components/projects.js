@@ -29,7 +29,7 @@ class Projects extends Component {
           <div>
             <p>XXXXXXXXXXXXXXXXX</p>
           </div>
-          <h4 className="projects">All projects are hosted on Github</h4>
+          <h1 className="projects">All projects are hosted on Github</h1>
         </div>
         <div className="projectprofiles boxes" onClick={this.clickAction}>
           <div

@@ -181,6 +181,16 @@ Hero4 {
 .bio2 {
   padding-top: 1700px;
   padding-left: 10px;
+  h1{
+    font-family: Fancy;
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515,
+      0 -1px b#996515;
+    height: 25px;
+  }
+
   p {
     color: black;
   }

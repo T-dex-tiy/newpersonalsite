@@ -33,7 +33,10 @@ class About extends Component{
               <DevTools />
             </div>
             <div className="biocontent bio2">
-              <p>Prior to pursuing a career in the tech field, my career path took me all over to many various positions. From marketing and event production to customer serivce and hospitality industry, I have taken each position on and made it my own. I can add a different view to any page or project with an attitude towards creating exciting and dynamic websites
+              <div className="bio2">
+                <h1>Who I am</h1>
+              </div>
+              <p>Prior to pursuing a career in the tech field, my career path took me all over to many various positions. From marketing and event production to customer serivce and hospitality industry, I have taken each position on and made it my own. I can add a different view to any page or project with an attitude towards creating exciting and dynamic websites. My skill set does include many years of content creation along with event planning. I can add that needed fresh eyes to any project.
               </p>
             </div>
             <div className="links">
