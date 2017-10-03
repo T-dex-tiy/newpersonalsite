@@ -123,7 +123,7 @@ body {
   text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515;
 }
 
-Hero4 {
+hero4 {
   display: flex;
   justify-content: center;
   position: absolute;
@@ -179,15 +179,14 @@ Hero4 {
 }
 
 .bio2 {
-  padding-top: 750px;
+  padding-top: 50px;
   padding-left: 10px;
-  h1{
+  h1 {
     font-family: Fancy;
     display: flex;
     justify-content: center;
     color: black;
-    text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515,
-      0 -1px b#996515;
+    text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px b#996515;
     height: 25px;
   }
 
@@ -199,7 +198,7 @@ Hero4 {
 
 .links {
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 825px;
 }
 
 .ContactInfo {
@@ -293,7 +292,7 @@ Hero4 {
   background-image: url('images/projects/chucknorris.png');
 }
 .proj3 {
-  background-image: url('images/projects/calculator.png');
+  background-image: url('images/projects/wbasite.png');
 }
 .proj4 {
   background-image: url('images/projects/hangman.png');
@@ -310,12 +309,6 @@ Hero4 {
   width: 100%;
 }
 
-.proj > *:first-child {
-  transform: translateY(-100%);
-}
-.proj.open-active > *:first-child {
-  transform: translateY(0);
-}
 .proj > *:last-child {
   transform: translateY(100%);
 }

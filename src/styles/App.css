@@ -99,7 +99,7 @@ body {
   color: black;
   text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515; }
 
-Hero4 {
+hero4 {
   display: flex;
   justify-content: center;
   position: absolute;
@@ -146,7 +146,7 @@ Hero4 {
         height: 25px; }
 
 .bio2 {
-  padding-top: 750px;
+  padding-top: 50px;
   padding-left: 10px; }
   .bio2 h1 {
     font-family: Fancy;
@@ -160,7 +160,7 @@ Hero4 {
 
 .links {
   justify-content: center;
-  padding-top: 50px; }
+  padding-top: 825px; }
 
 .ContactInfo {
   background: grey;
@@ -242,7 +242,7 @@ Hero4 {
   background-image: url("images/projects/chucknorris.png"); }
 
 .proj3 {
-  background-image: url("images/projects/calculator.png"); }
+  background-image: url("images/projects/wbasite.png"); }
 
 .proj4 {
   background-image: url("images/projects/hangman.png"); }
@@ -257,12 +257,6 @@ Hero4 {
   z-index: 0;
   height: 100%;
   width: 100%; }
-
-.proj > *:first-child {
-  transform: translateY(-100%); }
-
-.proj.open-active > *:first-child {
-  transform: translateY(0); }
 
 .proj > *:last-child {
   transform: translateY(100%); }
