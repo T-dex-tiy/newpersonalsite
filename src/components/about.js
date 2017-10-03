@@ -39,20 +39,22 @@ class About extends Component {
           <div className="links">
             <Projects class={this.props.class} />
           </div>
-          <div className="biocontent bio2">
-            <div className="bio2">
-              <h1>Who I am</h1>
+          <div>
+            <div className="bio2 bioheader">
+              <h1>About me</h1>
             </div>
-            <p>
-              Prior to pursuing a career in the tech field, my career path took
-              me all over to many various positions. From marketing and event
-              production to customer serivce and hospitality industry, I have
-              taken each position on and made it my own. I can add a different
-              view to any page or project with an attitude towards creating
-              exciting and dynamic websites. My skill set does include many
-              years of content creation along with event planning. I can add
-              that needed fresh eyes to any project.
-            </p>
+            <div className="biocontent bio2">
+              <p>
+                Prior to pursuing a career in the tech field, my career path
+                took me all over to many various positions. From marketing and
+                event production to customer serivce and hospitality industry, I
+                have taken each position on and made it my own. I can add a
+                different view to any page or project with an attitude towards
+                creating exciting and dynamic websites. My skill set does
+                include many years of content creation along with event
+                planning. I can add that needed fresh eyes to any project.
+              </p>
+            </div>
           </div>
           <div className="Hero4">
             <Contact />

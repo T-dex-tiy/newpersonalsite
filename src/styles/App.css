@@ -40,10 +40,10 @@ body {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-start space-between;
-  height: 185px;
+  height: 100px;
   background-color: black;
   width: 100%;
-  margin-top: 75%;
+  margin-top: 35%;
   color: white;
   align-content: stretch;
   font-weight: bolder; }
@@ -146,6 +146,8 @@ hero4 {
         height: 25px; }
 
 .bio2 {
+  display: flex;
+  justify-content: center;
   padding-top: 50px;
   padding-left: 10px; }
   .bio2 h1 {
@@ -256,7 +258,8 @@ hero4 {
   opacity: 0.5;
   z-index: 0;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  margin-top: 50px; }
 
 .proj > *:last-child {
   transform: translateY(100%); }
