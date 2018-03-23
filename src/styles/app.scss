@@ -28,7 +28,7 @@ body {
   padding-left: 0.5em;
   padding-right: 0.5em;
   padding-top: 0.75em;
-  @media (max-width: 1024px){
+  @media (max-width: 1024px) {
     height: 10em;
   }
 
@@ -46,7 +46,7 @@ body {
     border-radius: 150px;
     height: 10em;
     width: 10em;
-    @media (max-width: 414px){
+    @media (max-width: 414px) {
       height: 5em;
       width: 5em;
     }
@@ -65,13 +65,13 @@ body {
   color: white;
   align-content: stretch;
   font-weight: bolder;
-  @media(max-width: 414px){
+  @media (max-width: 414px) {
     margin-top: 203%;
   }
-  @media(min-width: 768px) and (max-width:1366px) and (orientation:portrait){
+  @media (min-width: 768px) and (max-width: 1366px) and (orientation: portrait) {
     margin-top: 128%;
   }
-  @media(min-width: 768px) and (max-width:1366px) and (orientation:landscape){
+  @media (min-width: 768px) and (max-width: 1366px) and (orientation: landscape) {
     margin-top: 71%;
   }
 
@@ -114,7 +114,7 @@ body {
   width: 100%;
   height: 580px;
   margin: 1px;
-  @media(max-width: 414px){
+  @media (max-width: 414px) {
     height: 35em;
   }
 
@@ -180,9 +180,10 @@ hero4 {
         display: flex;
         justify-content: center;
         color: black;
-        text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515,
-          0 -1px b#996515;
         height: 25px;
+      }
+      @media (max-width: 425px) {
+        margin-bottom: 35px;
       }
     }
     .biocontent {
@@ -220,8 +221,11 @@ hero4 {
 .links {
   justify-content: center;
   padding-top: 825px;
-  @media(max-width:1366px){
-    overflow:scroll;
+  @media (max-width: 1366px) {
+    overflow: scroll;
+  }
+  @media (max-width: 414px) {
+    padding-top: 950px;
   }
 }
 
@@ -292,9 +296,9 @@ hero4 {
   margin-top: 1px;
   // min-width: 125vh;
   width: 100%;
-@media(min-width:1375px){
-  min-width: 125vh;
-}
+  @media (min-width: 1375px) {
+    min-width: 125vh;
+  }
 
   .webProjects {
     background-size: cover;
@@ -332,11 +336,13 @@ hero4 {
   background-color: white;
   opacity: 0.5;
   z-index: 0;
-  height: 100%;
+  height: 75vh;
   width: 100%;
   margin-top: 50px;
-  @media(max-width:1366px){
-    overflow:scroll;
+  overflow: hidden;
+  @media (max-width: 1366px) {
+    overflow: scroll;
+    height: 100%;
   }
 }
 
