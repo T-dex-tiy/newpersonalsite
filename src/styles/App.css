@@ -169,8 +169,10 @@ hero4 {
 .bio2 {
   display: flex;
   justify-content: center;
-  padding-top: 50px;
-  padding-left: 10px; }
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px; }
   .bio2 h1 {
     font-family: Fancy;
     display: flex;

@@ -33,13 +33,14 @@ class About extends Component {
                   the first Apple computer.
                 </p>
               </div>
+              <br />
               <div className="biocontent">
                 <p>
                   Growth was the name of the game and used my skill set that I
                   gained while skiing and being outside to push my web dev
                   skills further. Used the down time to learn JavaScript more
                   fluently and newer frameworks like React. Too boot put down
-                  enough coffee to hit a hyper realty numerous times
+                  enough coffee to hit a hyper realty numerous times.
                 </p>
               </div>
             </div>
