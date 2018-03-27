@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Projects from '../components/projects';
 import DevTools from '../components/devToolBox';
 import Contact from '../components/Contact';
+import * as FontAwesome from 'react-icons/lib/fa';
 
 class About extends Component {
   constructor() {
@@ -24,14 +25,21 @@ class About extends Component {
               </div>
               <div className="biocontent">
                 <p>
-                  A season ending ski injury caused me to lose the ability to
-                  ski the way that I have the past thirty years. While I had
-                  extensive down time from traveling all over North America, I
-                  took the oppurtunity to pursue another passion in creating
-                  dynamic, stable websites. I pursued this dream thru hard work
-                  and spending all of my free time researching and devolping my
-                  skill set. I would like to take these skills futher and
-                  continue to teach what I have learned.
+                  Former professional skier with a passion for tech and teaching
+                  it. While pursuing a career in skiing my travels took me all
+                  over the US and allowed for basking in the greatness that
+                  America has to offer. An injury allowed me to pursue my
+                  passion for tech, which has been present since My family got
+                  the first Apple computer.
+                </p>
+              </div>
+              <div className="biocontent">
+                <p>
+                  Growth was the name of the game and used my skill set that I
+                  gained while skiing and being outside to push my web dev
+                  skills further. Used the down time to learn JavaScript more
+                  fluently and newer frameworks like React. Too boot put down
+                  enough coffee to hit a hyper realty numerous times
                 </p>
               </div>
             </div>
@@ -41,18 +49,18 @@ class About extends Component {
           </div>
           <div>
             <div className="bio2 bioheader">
-              <h1>About me</h1>
+              <h1>Why me?</h1>
             </div>
             <div className="biocontent bio2">
               <p>
-                Prior to pursuing a career in the tech field, my career path
-                took me all over to many various positions. From marketing and
-                event production to customer serivce and hospitality industry, I
-                have taken each position on and made it my own. I can add a
-                different view to any page or project with an attitude towards
-                creating exciting and dynamic websites. My skill set does
-                include many years of content creation along with event
-                planning. I can add that needed fresh eyes to any project.
+                From marketing and event production to customer serivce and
+                hospitality industry, I have taken each position on and made it
+                my own. I can add a different view to any page or project with
+                an attitude towards creating exciting and dynamic websites. My
+                skill set does include many years of content creation along with
+                event planning. I can add that needed fresh eyes to any project.
+                If you also need that special person who comes in and dominates
+                trivia, I have a brain full of useless facts as well.
               </p>
             </div>
           </div>
