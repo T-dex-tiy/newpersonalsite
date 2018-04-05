@@ -25,13 +25,13 @@ class About extends Component {
               </div>
               <div className="biocontent">
                 <p>
-                  Former professional skier with a passion for tech and teaching
+                  Champion freeskier with a passion for tech and teaching
                   it. While pursuing a career in skiing my travels took me all
                   over the US and allowed for basking in the greatness that
                   America has to offer. An injury allowed me to pursue my
-                  passion for tech, which has been present since My family got
-                  the first Apple computer.
-                </p>
+                  passion for tech, which has been present since my family got
+                  the first Apple computer. Self taught with a spinkling of an immersive program, I have taken all of what I have learned and use it to teach.
+                To become an expert you need to teach and I use that motto every day</p>
               </div>
               <br />
               <div className="biocontent">
@@ -50,7 +50,9 @@ class About extends Component {
           </div>
           <div>
             <div className="bio2 bioheader">
-              <h1>Why me?</h1>
+              <h1>
+                <i className="fab fa-react" /> Why me?
+              </h1>
             </div>
             <div className="biocontent bio2">
               <p>
