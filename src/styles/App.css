@@ -168,7 +168,7 @@ hero4 {
       text-align: center;
       color: black;
       height: 25px;
-      font-size: 0.5em; }
+      font-size: 0.75em; }
 
 .bio2 {
   display: flex;
@@ -177,6 +177,7 @@ hero4 {
   padding-top: 25px;
   padding-left: 10px;
   padding-right: 10px;
+  font-size: .75em;
   color: black;
   color: black; }
   .bio2 h1 {
