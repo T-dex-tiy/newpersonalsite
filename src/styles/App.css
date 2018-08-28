@@ -168,6 +168,7 @@ hero4 {
       text-align: center;
       color: black;
       height: 25px;
+      margin-top: 1em;
       font-size: .95em; }
       @media (max-width: 425px) {
         .bio .bioflex .biocontent {
