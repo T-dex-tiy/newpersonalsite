@@ -54,11 +54,11 @@ p {
   height: 100px;
   background-color: black;
   width: 100%;
-  margin-top: 50%;
+  margin-top: 70%;
   color: white;
   align-content: stretch;
   font-weight: bolder; }
-  @media (max-width: 414px) {
+  @media (max-width: 425px) {
     .app-footer {
       margin-top: 203%; } }
   @media (min-width: 768px) and (max-width: 1366px) and (orientation: portrait) {
@@ -301,7 +301,7 @@ hero4 {
   background-color: white;
   opacity: 0.5;
   z-index: 0;
-  height: 75vh;
+  height: 105vh;
   width: 100%;
   margin-top: 50px;
   overflow: hidden; }
