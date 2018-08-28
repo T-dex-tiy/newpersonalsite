@@ -10,9 +10,13 @@
 body {
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
     Helvetica, Arial, 'Lucida Grande', sans-serif;
+  background-color: lightslategrey;
   margin: 0;
   padding: 0;
   color: black;
+}
+p{
+  font-size: 1em;
 }
 ///HEADERITEMS
 .app-header {
@@ -164,7 +168,7 @@ hero4 {
   margin-top: 600px;
   margin-bottom: 25px;
   width: 100%;
-  height: auto;
+  height: 90%;
   color: white;
 
   .bioflex {
@@ -175,13 +179,12 @@ hero4 {
     .bioheader {
       display: flex;
       justify-content: center;
-      h1 {
+      font-size:2em;
         font-family: Fancy;
         display: flex;
         justify-content: center;
         color: black;
         height: 25px;
-      }
       @media (max-width: 425px) {
         margin-bottom: 35px;
       }
@@ -190,10 +193,9 @@ hero4 {
       display: flex;
       justify-content: center;
       text-align: center;
-      p {
-        color: black;
-        height: 25px;
-      }
+      color: black;
+      height: 25px;
+      font-size: .5em
     }
   }
 }
@@ -205,6 +207,7 @@ hero4 {
   padding-top: 25px;
   padding-left: 10px;
   padding-right: 10px;
+  color: black;
 
   h1 {
     font-family: Fancy;
@@ -215,9 +218,7 @@ hero4 {
     height: 25px;
   }
 
-  p {
     color: black;
-  }
 }
 //Projects
 
@@ -226,9 +227,10 @@ hero4 {
   padding-top: 825px;
   @media (max-width: 1366px) {
     overflow: scroll;
+    padding-top: 175%
   }
   @media (max-width: 414px) {
-    padding-top: 950px;
+    padding-top: 350%;
   }
 }
 
@@ -344,7 +346,6 @@ hero4 {
   margin-top: 50px;
   overflow: hidden;
   @media (max-width: 1366px) {
-    overflow: scroll;
     height: 100%;
   }
 }
@@ -389,6 +390,9 @@ hero4 {
   display: flex;
   justify-content: center;
   color: white;
+  @media(max-width:414px){
+    display:inline;
+  }
   h1 {
     text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px b#996515;
     background-color: black;

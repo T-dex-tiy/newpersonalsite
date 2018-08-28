@@ -19,29 +19,25 @@ class About extends Component {
           <div className="bio">
             <div className="bioflex">
               <div className="bioheader">
-                <h1>
                   Adventure based web design and pursuing the next big idea.
-                </h1>
               </div>
               <div className="biocontent">
-                <p>
+                
                   Champion freeskier with a passion for tech and teaching
                   it. While pursuing a career in skiing my travels took me all
                   over the US and allowed for basking in the greatness that
                   America has to offer. An injury allowed me to pursue my
                   passion for tech, which has been present since my family got
-                  the first Apple computer. Self taught with a spinkling of an immersive program, I have taken all of what I have learned and use it to teach.
-                To become an expert you need to teach and I use that motto every day</p>
+                  the first Apple computer and conneted the the greatness of Dial up. Self taught with a spinkling of an immersive program, I have taken all of what I have learned and use it to teach.
+                To become an expert you need to teach and I use that motto every day
               </div>
               <br />
               <div className="biocontent">
-                <p>
-                  Growth was the name of the game and used my skill set that I
-                  gained while skiing and being outside to push my web dev
-                  skills further. Used the down time to learn JavaScript more
-                  fluently and newer frameworks like React. Too boot put down
-                  enough coffee to hit a hyper realty numerous times.
-                </p>
+                  Growth was the name of the game and used that skill set, I
+                  aquired while skiing and being outside, to push my web dev
+                  skills further. Use downtime to learn JavaScript more
+                  fluently and newer frameworks like React, and Angular. I've put down
+                  enough coffee a few times to hit a hyper reality.
               </div>
             </div>
           </div>
@@ -55,7 +51,6 @@ class About extends Component {
               </h1>
             </div>
             <div className="biocontent bio2">
-              <p>
                 From marketing and event production to customer serivce and
                 hospitality industry, I have taken each position on and made it
                 my own. I can add a different view to any page or project with
@@ -64,7 +59,6 @@ class About extends Component {
                 event planning. I can add that needed fresh eyes to any project.
                 If you also need that special person who comes in and dominates
                 trivia, I have a brain full of useless facts as well.
-              </p>
             </div>
           </div>
           <div className="Hero4">

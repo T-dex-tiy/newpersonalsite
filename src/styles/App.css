@@ -7,9 +7,13 @@
 
 body {
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  background-color: lightslategrey;
   margin: 0;
   padding: 0;
   color: black; }
+
+p {
+  font-size: 1em; }
 
 .app-header {
   background: url("images/wood.jpg") no-repeat;
@@ -139,7 +143,7 @@ hero4 {
   margin-top: 600px;
   margin-bottom: 25px;
   width: 100%;
-  height: auto;
+  height: 90%;
   color: white; }
   .bio .bioflex {
     display: flex;
@@ -148,23 +152,23 @@ hero4 {
     margin: 15px; }
     .bio .bioflex .bioheader {
       display: flex;
-      justify-content: center; }
-      .bio .bioflex .bioheader h1 {
-        font-family: Fancy;
-        display: flex;
-        justify-content: center;
-        color: black;
-        height: 25px; }
+      justify-content: center;
+      font-size: 2em;
+      font-family: Fancy;
+      display: flex;
+      justify-content: center;
+      color: black;
+      height: 25px; }
       @media (max-width: 425px) {
         .bio .bioflex .bioheader {
           margin-bottom: 35px; } }
     .bio .bioflex .biocontent {
       display: flex;
       justify-content: center;
-      text-align: center; }
-      .bio .bioflex .biocontent p {
-        color: black;
-        height: 25px; }
+      text-align: center;
+      color: black;
+      height: 25px;
+      font-size: 0.5em; }
 
 .bio2 {
   display: flex;
@@ -172,7 +176,9 @@ hero4 {
   text-align: center;
   padding-top: 25px;
   padding-left: 10px;
-  padding-right: 10px; }
+  padding-right: 10px;
+  color: black;
+  color: black; }
   .bio2 h1 {
     font-family: Fancy;
     display: flex;
@@ -180,18 +186,17 @@ hero4 {
     color: black;
     text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px b #996515;
     height: 25px; }
-  .bio2 p {
-    color: black; }
 
 .links {
   justify-content: center;
   padding-top: 825px; }
   @media (max-width: 1366px) {
     .links {
-      overflow: scroll; } }
+      overflow: scroll;
+      padding-top: 175%; } }
   @media (max-width: 414px) {
     .links {
-      padding-top: 950px; } }
+      padding-top: 350%; } }
 
 .ContactInfo {
   background: grey;
@@ -294,7 +299,6 @@ hero4 {
   overflow: hidden; }
   @media (max-width: 1366px) {
     .workinprogress {
-      overflow: scroll;
       height: 100%; } }
 
 .proj > *:last-child {
@@ -331,6 +335,9 @@ hero4 {
   display: flex;
   justify-content: center;
   color: white; }
+  @media (max-width: 414px) {
+    .boxheader {
+      display: inline; } }
   .boxheader h1 {
     text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px b #996515;
     background-color: black;

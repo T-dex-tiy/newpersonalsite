@@ -5,6 +5,7 @@ import About from './components/about';
 import Contact from './components/Contact';
 import Projects from './components/projects';
 import ProfilePic from './styles/images/ProfilePic.jpg'
+import {Jumbotron} from 'reactstrap'
 
 class App extends Component {
     constructor(){
