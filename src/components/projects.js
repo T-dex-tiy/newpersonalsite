@@ -14,11 +14,11 @@ class Projects extends Component {
   }
 
   clickAction(e) {
-    // const addClass= this.state.class == 'open open-active' ? 'closed':'open open-active' ;
+    console.log(e);
+    
     this.setState({
       class: !this.state.class
     });
-    console.log(this.state.class, 'Click action');
   }
   render() {
     return (
@@ -31,12 +31,12 @@ class Projects extends Component {
           <h1 className="projects">All projects are hosted on Github</h1>
         </div>
         <div className="projectprofiles boxes" onClick={this.clickAction}>
-          <div
+          <div 
             className={`webProjects proj1 proj ${this.state.class
               ? 'open open-active'
               : 'none'}`}
           >
-            <h1>HTML</h1>
+            <h1 value="proj1">HTML</h1>
             <a href="https://t-dex-tiy.github.io/wk-01-icecream/">
               <h3>Example</h3>
             </a>
