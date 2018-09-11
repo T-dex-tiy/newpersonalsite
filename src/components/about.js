@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
 import Projects from '../components/projects';
-import DevTools from '../components/devToolBox';
 import Contact from '../components/Contact';
-import * as FontAwesome from 'react-icons/lib/fa';
+
 
 class About extends Component {
-  constructor() {
-    super();
-  }
 
   render() {
     return (

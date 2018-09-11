@@ -7,7 +7,7 @@
 
 body {
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-  background-color: lightslategrey;
+  background-image: linear-gradient(to bottom right, black, lightslategrey, darkgrey, grey, lightgrey, white);
   margin: 0;
   padding: 0;
   color: black; }
@@ -54,7 +54,7 @@ p {
   height: 100px;
   background-color: black;
   width: 100%;
-  margin-top: 70%;
+  margin-top: 120vh;
   color: white;
   align-content: stretch;
   font-weight: bolder; }
@@ -66,7 +66,7 @@ p {
       margin-top: 128%; } }
   @media (min-width: 768px) and (max-width: 1366px) and (orientation: landscape) {
     .app-footer {
-      margin-top: 71%; } }
+      margin-top: 110vh; } }
   .app-footer .footer {
     margin-right: 5px;
     margin-left: 15px;
@@ -197,11 +197,11 @@ hero4 {
 
 .links {
   justify-content: center;
-  padding-top: 70em; }
+  padding-top: 150vh; }
   @media (max-width: 1366px) {
     .links {
       overflow: scroll;
-      padding-top: 175%; } }
+      padding-top: 80em; } }
   @media (max-width: 414px) {
     .links {
       padding-top: 350%; } }
@@ -280,9 +280,11 @@ hero4 {
     align-items: center;
     display: flex;
     flex-direction: column; }
+    .projectprofiles .webProjects :hover > *:last-child {
+      transform: translateY(100%); }
 
 .proj1 {
-  background-image: url("images/projects/FirstPage.png"); }
+  background-image: url("images/projects/CalcGIF.gif"); }
 
 .proj2 {
   background-image: url("images/projects/chucknorris.png"); }
@@ -298,9 +300,6 @@ hero4 {
   background-image: url("images/working.jpg");
   background-position: center;
   background-size: cover;
-  background-color: white;
-  opacity: 0.5;
-  z-index: 0;
   height: 105vh;
   width: 100%;
   margin-top: 50px;
@@ -308,16 +307,6 @@ hero4 {
   @media (max-width: 1366px) {
     .workinprogress {
       height: 100%; } }
-
-.proj > *:last-child {
-  transform: translateY(100%); }
-
-.proj.open-active > *:last-child {
-  transform: translateY(0); }
-
-.proj.open {
-  flex: 5;
-  font-size: 40px; }
 
 .webProjects > * {
   font-family: Fancy;
@@ -341,9 +330,9 @@ hero4 {
 
 .boxheader {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   color: white; }
-  @media (max-width: 414px) {
+  @media (max-width: 420px) {
     .boxheader {
       display: inline; } }
   .boxheader h1 {

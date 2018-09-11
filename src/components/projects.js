@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import WebProjects1 from '../styles/images/projects/FirstPage.png';
-import WebProjects2 from '../styles/images/projects/chucknorris.png';
-import WebProjects3 from '../styles/images/projects/wbasite.png';
-import WebProjects4 from '../styles/images/projects/hangman.png';
+
 
 class Projects extends Component {
   constructor() {
@@ -10,12 +7,19 @@ class Projects extends Component {
     this.state = {
       class: ''
     };
-    this.clickAction = this.clickAction.bind(this);
+    document.addEventListener("hover",(e)=>{
+      const{target}=e
+      console.log(target);
+      
+    })
   }
 
-  clickAction(e) {
-    console.log(e);
-    
+
+
+  clickAction=(e) =>{  
+    const classTest =e.target
+    console.log( {classTest})
+  
     this.setState({
       class: !this.state.class
     });
@@ -25,19 +29,16 @@ class Projects extends Component {
       <div>
         <div className="boxheader">
           <h1 className="projects">Projects</h1>
-          <div>
-            <p>XXXXXXXXXXXXXXXXX</p>
-          </div>
           <h1 className="projects">All projects are hosted on Github</h1>
         </div>
-        <div className="projectprofiles boxes" onClick={this.clickAction}>
+        <div className="projectprofiles boxes" onClick={(target)=>{this.clickAction(target)}}>
           <div 
             className={`webProjects proj1 proj ${this.state.class
               ? 'open open-active'
-              : 'none'}`}
+              : 'none'}`} value="shit"
           >
-            <h1 value="proj1">HTML</h1>
-            <a href="https://t-dex-tiy.github.io/wk-01-icecream/">
+            <h1 value="JS" ref="js">Vanilla JS</h1>
+            <a href="https://t-dex-tiy.github.io/calculator/" value="calc">
               <h3>Example</h3>
             </a>
           </div>
@@ -46,7 +47,7 @@ class Projects extends Component {
               ? 'open open-active'
               : 'none'}`}
           >
-            <h1>API</h1>
+            <h1 ref="API">API</h1>
             <a href="https://t-dex-tiy.github.io/API-homework-wk-04/">
               <h3>Example</h3>
             </a>
@@ -58,16 +59,6 @@ class Projects extends Component {
           >
             <h1>ReactJS</h1>
             <a href="https://wba-trail-counting.herokuapp.com">
-              <h3>Example</h3>
-            </a>
-          </div>
-          <div
-            className={`webProjects proj4 proj ${this.state.class
-              ? 'open open-active'
-              : 'none'}`}
-          >
-            <h1>CSS</h1>
-            <a href="https://t-dex-tiy.github.io/hangman-wk-02/">
               <h3>Example</h3>
             </a>
           </div>

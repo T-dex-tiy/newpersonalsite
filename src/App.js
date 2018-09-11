@@ -2,10 +2,8 @@ import React, { Component } from 'react';
 import Footer from './components/footerLinks2/socialLinks.js';
 import './styles/App.css';
 import About from './components/about';
-import Contact from './components/Contact';
-import Projects from './components/projects';
 import ProfilePic from './styles/images/ProfilePic.jpg'
-import {Jumbotron} from 'reactstrap'
+
 
 class App extends Component {
     constructor(){
@@ -20,7 +18,7 @@ render() {
       <div className="App">
         <div className="app-header">
           <div className="Logo"><h1> Dex Mills Designs</h1></div>
-          <div><img className="profile" src={ProfilePic}/></div>
+          <div><img className="profile" src={ProfilePic} alt=""/></div>
        </div>
         <div className="App-intro">
           <div>
