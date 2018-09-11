@@ -22,11 +22,6 @@ class Contact extends Component {
                 <a href="https://www.visualcv.com/dex-mills">Resume!</a>
               </h1>
             </div>
-            <div className="webProjects">
-              <h1>
-                <a href="https://medium.com/@dexmills">Medium</a>
-              </h1>
-            </div>
           </div>
         </div>
       </div>

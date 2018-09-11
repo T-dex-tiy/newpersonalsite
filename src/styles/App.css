@@ -100,7 +100,9 @@ p {
   margin: 1px; }
   @media (max-width: 414px) {
     .Hero {
-      height: 35em; } }
+      height: 35em;
+      background: url("images/skiing.jpg") no-repeat center;
+      background-size: 75vh 75vw; } }
   .Hero h1 {
     text-align: center;
     padding-top: 260px;
