@@ -20,20 +20,15 @@ class About extends Component {
               <div className="biocontent">
                 
                   Champion freeskier with a passion for tech and teaching
-                  it. While pursuing a career in skiing my travels took me all
-                  over the US and allowed for basking in the greatness that
-                  America has to offer. An injury allowed me to pursue my
-                  passion for tech, which has been present since my family got
-                  the first Apple computer and conneted the the greatness of Dial up. Self taught with a spinkling of an immersive program, I have taken all of what I have learned and use it to teach.
-                To become an expert you need to teach and I use that motto every day
-              </div>
-              <br />
-              <div className="biocontent">
-                  Growth was the name of the game and used that skill set, I
-                  aquired while skiing and being outside, to push my web dev
-                  skills further. Use downtime to learn JavaScript more
-                  fluently and newer frameworks like React, and Angular. I've put down
-                  enough coffee a few times to hit a hyper reality.
+                  it. Use all of my free time to hone my skill set and continue to level up as quick as I can.
+                  Having a deep seeded passion for all that is tech from messing around with web sites on the giant 
+                  Apple Computer with the sweet sounds of a Dial-up Modem to focusing and teaching myself all the nooks and crannies that web and software development has to offer.
+                  I stand and full belive that to be an expert you need to teach and I spend my time helping educate what I have learned.
+                <br></br>
+                <br></br>
+                 Growth was the name of the game and using the skills I acquired while traveling the west pursuing a dream of making skiing a reality, give me an edge on many developers.
+                 Pursuing a passion that has many more hardships than victories has allowed me to focus on goals and do all that is needed to achieve them.
+                 Using that skill set along with my rich career history in hospitality, customer service and event management give me a unique eye for devloping dynamic software that makes users feel like they are part of the web rather than interacting with a website.
               </div>
             </div>
           </div>
