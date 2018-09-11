@@ -37,7 +37,7 @@ class Projects extends Component {
               ? 'open open-active'
               : 'none'}`} value="shit"
           >
-            <h1 value="JS" ref="js">Vanilla JS</h1>
+            <h1 value="JS" ref="js">Vanilla JS/HTML/CSS</h1>
             <a href="https://t-dex-tiy.github.io/calculator/" value="calc">
               <h3>Example</h3>
             </a>
@@ -58,7 +58,7 @@ class Projects extends Component {
               : 'none'}`}
           >
             <h1>ReactJS</h1>
-            <a href="https://wba-trail-counting.herokuapp.com">
+            <a href="https://cryptic-dusk-98436.herokuapp.com/">
               <h3>Example</h3>
             </a>
           </div>
