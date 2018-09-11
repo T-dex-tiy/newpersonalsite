@@ -103,6 +103,14 @@ p {
       height: 35em;
       background: url("images/skiing.jpg") no-repeat center;
       background-size: 75vh 75vw; } }
+  @media (min-width: 768px) and (max-width: 1366px) and (orientation: portrait) {
+    .Hero {
+      background: url("images/skiing.jpg") no-repeat center;
+      background-size: 95vh 95vw; } }
+  @media (min-width: 768px) and (max-width: 1366px) and (orientation: landscape) {
+    .Hero {
+      background: url("images/skiing.jpg") no-repeat center;
+      background-size: 125vw 95vh; } }
   .Hero h1 {
     text-align: center;
     padding-top: 260px;
