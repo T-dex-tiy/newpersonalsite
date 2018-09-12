@@ -17,6 +17,8 @@ body {
 }
 p{
   font-size: 1em;
+  color:white;
+  font-family: 'Helvetica'
 }
 ///HEADERITEMS
 .app-header {
@@ -202,7 +204,6 @@ hero4 {
       display: flex;
       justify-content: center;
       text-align: center;
-      color: black;
       height: 25px;
       margin-top: 1em;
       font-size: .95em;
@@ -221,7 +222,6 @@ hero4 {
   padding-left: 10px;
   padding-right: 10px;
   font-size: .95em;
-  color: black;
   @media (max-width:425px){
     font-size: .75em
   }
@@ -235,7 +235,6 @@ hero4 {
     height: 25px;
   }
 
-    color: black;
 }
 //Projects
 

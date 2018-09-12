@@ -13,7 +13,9 @@ body {
   color: black; }
 
 p {
-  font-size: 1em; }
+  font-size: 1em;
+  color: white;
+  font-family: "Helvetica"; }
 
 .app-header {
   background: url("images/wood.jpg") no-repeat;
@@ -176,7 +178,6 @@ hero4 {
       display: flex;
       justify-content: center;
       text-align: center;
-      color: black;
       height: 25px;
       margin-top: 1em;
       font-size: .95em; }
@@ -191,9 +192,7 @@ hero4 {
   padding-top: 25px;
   padding-left: 10px;
   padding-right: 10px;
-  font-size: .95em;
-  color: black;
-  color: black; }
+  font-size: .95em; }
   @media (max-width: 425px) {
     .bio2 {
       font-size: 0.75em; } }
