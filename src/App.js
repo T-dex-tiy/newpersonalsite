@@ -5,6 +5,7 @@ import About from './components/about';
 import ProfilePic from './styles/images/ProfilePic.jpg'
 
 
+
 class App extends Component {
     constructor(){
       super()

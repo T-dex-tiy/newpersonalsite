@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Projects from '../components/projects';
 import Contact from '../components/Contact';
+import Jumbotron from 'react-bootstrap/Jumbotron'
+import Container from 'react-bootstrap/Container'
 
 
 class About extends Component {
@@ -9,10 +11,10 @@ class About extends Component {
     return (
       <div>
         <div className="profile">
-          <div className="Hero">
+          <Jumbotron fluid className='Hero'>
             <h1>Loud and Original</h1>
-          </div>
-          <div className="bio">
+          </Jumbotron>
+          <Container className="bio">
             <div className="bioflex">
               <div className="bioheader">
                   Adventure based web design and pursuing the next big idea.
@@ -31,10 +33,10 @@ class About extends Component {
                  Using that skill set along with my rich career history in hospitality, customer service and event management give me a unique eye for devloping dynamic software that makes users feel like they are part of the web rather than interacting with a website.
               </div>
             </div>
-          </div>
-          <div className="links">
+          </Container>
+          <Container fluid className="links">
             <Projects class={this.props.class} />
-          </div>
+          </Container>
           <div>
             <div className="bio2 bioheader">
               <h1>
