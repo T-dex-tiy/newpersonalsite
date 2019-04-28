@@ -21,7 +21,7 @@ class Resume extends Component {
             </Modal.Header>
             <Modal.Body>
             <h1 className="resume">Where I've been</h1>
-              <h3 className="resume">CxAlloy</h3>
+              <h3 className="resume header">CxAlloy</h3>
               <h4 className="resume">Front End Windows Application Web Developer</h4>
               <h5 className="resume date">Salt Lake City || November 2018-April 2019</h5>
               <ul className="resume">
@@ -33,7 +33,7 @@ class Resume extends Component {
                     <li className="resume">Participate in code reviews of windows application  </li>
               </ul>
               <br></br>
-              <h3 className="resume">University of Utah Coding Bootcamp</h3>
+              <h3 className="resume header">University of Utah Coding Bootcamp</h3>
               <h4 className="resume">Teaching Assistant</h4>
               <h5 className="resume date">Salt Lake City || August 2018-Current</h5>
               <ul className="resume">
@@ -42,7 +42,7 @@ class Resume extends Component {
                     <li className="resume">Calmly helped students work through issues with code and fostered an environment of problem-solving</li>
               </ul>
               <br></br>
-              <h3 className="resume">Cloudviel Mountain Heli</h3>
+              <h3 className="resume header">Cloudviel Mountain Heli</h3>
               <h4 className="resume">Front End Web Developer/ Marketing Assoicate</h4>
               <h5 className="resume date">Salt Lake City || November 2017-Feburary 2019</h5>
               <ul className="resume">

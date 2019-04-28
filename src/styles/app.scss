@@ -466,3 +466,14 @@ hero4 {
   color: black;
   text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515;
 }
+
+.resume{
+  color:black;
+  .date{
+    align-self: flex-end
+    }
+    .header{
+      font-weight: bolder
+    }
+}
+
