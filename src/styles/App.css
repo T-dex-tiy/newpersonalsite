@@ -114,7 +114,6 @@ p {
     text-align: center;
     padding-top: 260px;
     padding-bottom: 260px;
-    margin: 50px;
     color: black;
     text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515; }
 
@@ -391,4 +390,11 @@ hero4 {
   color: black;
   text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515; }
 
+
+  .resume{
+    color:black;
+  }
+.date{
+  align-self: flex-end
+}
 /*# sourceMappingURL=App.css.map */

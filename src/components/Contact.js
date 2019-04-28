@@ -1,7 +1,16 @@
 import React, { Component } from 'react';
+import Resume from '../components/resume'
+import Button from 'react-bootstrap/Button'
+
 
 class Contact extends Component {
+  constructor(){
+    super()
+    this.state = { modalShow: false };
+  }
+
   render() {
+    let modalClose = () => this.setState({ modalShow: false });
     return (
       <div className="workinprogress">
         <div />
@@ -19,7 +28,8 @@ class Contact extends Component {
             </div>
             <div className="webProjects">
               <h1>
-                <a href="https://www.visualcv.com/dex-mills">Resume!</a>
+                <a variant="primary"  onClick={() => this.setState({ modalShow: true })}>Resume!</a>
+                <Resume className="resume" show={this.state.modalShow} onHide={modalClose}/>
               </h1>
             </div>
           </div>
